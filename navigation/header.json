@@ -1,0 +1,17 @@
+{
+  "id": "header",
+  "label": "Header",
+  "items": [
+    {
+      "id": "home",
+      "label": "Beranda",
+      "icon": "house",
+      "target": {
+        "kind": "home"
+      },
+      "children": []
+    }
+  ],
+  "createdAt": "2026-11-23T05:49:39.383Z",
+  "updatedAt": "2026-11-23T05:49:39.383Z"
+}

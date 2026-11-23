@@ -1,0 +1,89 @@
+{
+  "shell": {
+    "theme": "github",
+    "name": "",
+    "icon": "",
+    "color": ""
+  },
+  "site": {
+    "title": "AppMe",
+    "tagline": "Bangun Situsmu, Semudah Menulis.",
+    "description": "Bangun Situsmu, Semudah Menulis.",
+    "language": "id",
+    "url": "https://deddyhidayat.appme.id",
+    "logo": "media/brand/logo.png",
+    "icon": "media/brand/icon.png",
+    "ogImage": "media/brand/og-default.png"
+  },
+  "hero": {
+    "title": "AppMe",
+    "subtitle": "Aplikasi Pembangun Publikasi Mudah dan Efisien"
+  },
+  "paths": {
+    "post": "post",
+    "category": "kategori",
+    "user": "penulis",
+    "postLabel": "Tulisan"
+  },
+  "seo": {
+    "titleTemplate": "%title% | %site%",
+    "indexSite": true,
+    "llmsTxt": true,
+    "twitterHandle": "",
+    "organizationName": "",
+    "socialProfiles": [],
+    "verification": {
+      "google": "",
+      "bing": ""
+    }
+  },
+  "images": {
+    "webpQuality": 78,
+    "avif": false,
+    "avifQuality": 55,
+    "webpSizes": "one",
+    "breakpoints": [
+      360,
+      640,
+      960,
+      1280
+    ],
+    "maxWidth": 1600
+  },
+  "caching": {
+    "prefetch": true,
+    "serviceWorker": false
+  },
+  "watcher": {
+    "idleSeconds": 3,
+    "intervalSeconds": 30
+  },
+  "publish": {
+    "method": null,
+    "target": "none",
+    "siteId": "",
+    "teamId": ""
+  },
+  "github": {
+    "enabled": false,
+    "repository": "",
+    "branch": "main",
+    "lock": null
+  },
+  "theme": {
+    "active": "default",
+    "options": {}
+  },
+  "plugins": {
+    "search": {
+      "enabled": true,
+      "options": {}
+    }
+  },
+  "maintenance": {
+    "enabled": false,
+    "title": "",
+    "message": ""
+  },
+  "updatedAt": "2026-11-23T05:49:39.380Z"
+}
