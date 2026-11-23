@@ -1,0 +1,9 @@
+# AppMe
+
+> Bangun Situsmu, Semudah Menulis.
+
+## Optional
+
+- [Isi lengkap semua tulisan](https://deddyhidayat.appme.id/llms-full.txt)
+- [Feed RSS](https://deddyhidayat.appme.id/rss.xml)
+- [Sitemap](https://deddyhidayat.appme.id/sitemap.xml)

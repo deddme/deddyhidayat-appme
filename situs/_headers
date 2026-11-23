@@ -1,0 +1,15 @@
+/media/_opt/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/*
+  Cache-Control: public, max-age=2592000
+
+/media/embeds/*
+  Content-Security-Policy: sandbox allow-scripts allow-forms allow-popups allow-modals
+  X-Robots-Tag: noindex
+
+/assets/*
+  Access-Control-Allow-Origin: *
+
+/search.json
+  Access-Control-Allow-Origin: *

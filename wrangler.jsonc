@@ -1,0 +1,9 @@
+// Hosting Cloudflare untuk situs ini: hanya folder situs/ yang tayang.
+{
+  "name": "deddyhidayat-appme",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./situs",
+    "not_found_handling": "404-page"
+  }
+}
