@@ -1,0 +1,27 @@
+# Dibuat dashboard: menayangkan folder situs/ ke Cloudflare Workers milikmu
+# setiap kali Publish. Token Cloudflare tersimpan sebagai secret CLOUDFLARE_API_TOKEN.
+name: Tayangkan situs
+on:
+  push:
+    branches: ["main"]
+    paths: ['situs/**', 'wrangler.jsonc', '.github/workflows/deploy.yml']
+  workflow_dispatch:
+concurrency:
+  group: tayangkan-situs
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            situs
+            wrangler.jsonc
+          sparse-checkout-cone-mode: false
+      - run: npx --yes wrangler@4.156.2 deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

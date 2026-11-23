@@ -1,6 +1,7 @@
 // Hosting Cloudflare untuk situs ini: hanya folder situs/ yang tayang.
 {
   "name": "deddyhidayat-appme",
+  "account_id": "adf77f4ada6ee2dc39f34c4db1c174d4",
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": "./situs",
